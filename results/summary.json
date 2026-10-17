@@ -1,0 +1,106 @@
+{
+  "postseasons_used": [
+    1978,
+    2026,
+    49
+  ],
+  "postseasons_excluded": [
+    1977
+  ],
+  "team_seasons_without_series_data": [],
+  "qualifying_runs": 2464,
+  "target": {
+    "stats": {
+      "usg_pct": 35.0,
+      "ast_pct": 46.4,
+      "trb_pct": 12.9,
+      "stl_pct": 1.7,
+      "blk_pct": 2.3,
+      "ts_pct": 0.619
+    },
+    "z": {
+      "z_usg_pct": 2.2,
+      "z_ast_pct": 2.88,
+      "z_trb_pct": 0.62,
+      "z_stl_pct": 0.23,
+      "z_blk_pct": 0.35,
+      "z_ts_pct": 0.9
+    },
+    "mpg": 41.9,
+    "ws": 5.2,
+    "ws_share": 0.46,
+    "bpm": 12.7,
+    "mates_bpm": -1.66,
+    "cast_gap": 14.36,
+    "iso_euclid": 1.324,
+    "iso_euclid_rank": 55,
+    "iso_mahal": 1.385,
+    "iso_mahal_rank": 67,
+    "c1_rank": 4,
+    "c2_rank": 1,
+    "c3_rank": 3
+  },
+  "test1_nearest_other_player": {
+    "run": "Kevin Durant 2013",
+    "distance": 1.324,
+    "bird_claim_confirmed": false
+  },
+  "test2_most_unique_euclid": false,
+  "test3_carry_verdict": "partly supported",
+  "lebron_vs_jordan": {
+    "LeBron James": {
+      "qualifying_runs": 16,
+      "iso_euclid": {
+        "best_run": 2009,
+        "best_value": 1.705,
+        "best_rank": 6,
+        "runs_in_top_25": 1
+      },
+      "iso_mahal": {
+        "best_run": 2009,
+        "best_value": 1.748,
+        "best_rank": 14,
+        "runs_in_top_25": 1
+      },
+      "ws_share": {
+        "best_run": 2018,
+        "best_value": 0.46,
+        "best_rank": 4,
+        "runs_in_top_25": 3
+      },
+      "cast_gap": {
+        "best_run": 2009,
+        "best_value": 17.515,
+        "best_rank": 1,
+        "runs_in_top_25": 3
+      }
+    },
+    "Michael Jordan": {
+      "qualifying_runs": 10,
+      "iso_euclid": {
+        "best_run": 1995,
+        "best_value": 1.303,
+        "best_rank": 62,
+        "runs_in_top_25": 0
+      },
+      "iso_mahal": {
+        "best_run": 1995,
+        "best_value": 1.691,
+        "best_rank": 20,
+        "runs_in_top_25": 1
+      },
+      "ws_share": {
+        "best_run": 1988,
+        "best_value": 0.477,
+        "best_rank": 3,
+        "runs_in_top_25": 3
+      },
+      "cast_gap": {
+        "best_run": 1990,
+        "best_value": 14.623,
+        "best_rank": 2,
+        "runs_in_top_25": 5
+      }
+    }
+  }
+}

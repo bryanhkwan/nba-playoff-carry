@@ -1,0 +1,16 @@
+player,season,team_id,mpg,ws,ws_share,bpm,mates_bpm,cast_gap,series_won,reached_finals,won_title
+LeBron James,2018,CLE,41.909,5.2,0.46,12.7,-1.664,14.364,3,True,False
+LeBron James,2014,MIA,38.15,4.3,0.371,10.3,-0.104,10.404,3,True,False
+Shaquille O'Neal,2000,LAL,43.478,4.7,0.353,8.1,1.069,7.031,4,True,True
+Dirk Nowitzki,2006,DAL,42.739,5.4,0.353,9.2,1.025,8.175,3,True,False
+Tim Duncan,2003,SAS,42.542,5.9,0.349,10.2,0.506,9.694,4,True,True
+Charles Barkley,1993,PHO,42.75,4.6,0.346,6.9,0.64,6.26,3,True,False
+Moses Malone,1981,HOU,45.476,3.5,0.337,2.9,0.418,2.482,3,True,False
+Larry Bird,1984,BOS,41.783,4.7,0.329,10.3,0.233,10.067,4,True,True
+LeBron James,2012,MIA,42.739,5.8,0.324,10.5,1.404,9.096,4,True,True
+Dwyane Wade,2006,MIA,41.696,4.8,0.322,9.3,0.348,8.952,4,True,True
+Dikembe Mutombo,2001,PHI,42.652,3.8,0.322,3.1,0.657,2.443,3,True,False
+Dwight Howard,2009,ORL,39.261,4.5,0.321,6.2,1.171,5.029,3,True,False
+Michael Jordan,1993,CHI,41.211,4.4,0.319,11.6,0.568,11.032,4,True,True
+Shaquille O'Neal,2004,LAL,41.682,3.9,0.317,5.5,1.135,4.365,3,True,False
+Magic Johnson,1991,LAL,43.316,3.3,0.314,7.6,0.917,6.683,3,True,False

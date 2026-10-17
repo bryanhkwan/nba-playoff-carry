@@ -1,0 +1,11 @@
+player,season,team_id,usg_pct,ast_pct,trb_pct,stl_pct,blk_pct,ts_pct,distance
+LeBron James,2010,CLE,30.9,36.8,13.3,2.1,3.0,0.607,1.045
+LeBron James,2009,CLE,36.4,39.5,14.2,2.2,1.8,0.618,1.061
+Kevin Durant,2013,OKC,31.9,29.2,11.5,1.5,2.1,0.574,1.324
+LeBron James,2020,LAL,30.4,42.0,17.5,1.7,2.3,0.647,1.326
+Tracy McGrady,2005,HOU,34.7,33.2,10.5,2.0,2.7,0.556,1.39
+James Harden,2020,HOU,32.4,38.8,8.3,2.0,2.2,0.636,1.401
+Nikola Jokić,2023,DEN,31.1,41.0,19.8,1.4,2.2,0.631,1.478
+Luka Dončić,2021,DAL,40.4,54.1,11.4,1.7,1.2,0.572,1.566
+LeBron James,2013,MIA,29.2,30.5,12.4,2.3,1.6,0.585,1.638
+LeBron James,2017,CLE,31.6,33.8,12.8,2.3,2.6,0.649,1.68
