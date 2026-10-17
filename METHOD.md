@@ -4,13 +4,13 @@ Written and committed before any data was pulled or analyzed. If anything has to
 
 ## The claims being tested
 
-A viral video argued that 2018 LeBron James was "the largest carry job in NBA playoff history." Its method:
+A popular argument online says 2018 LeBron James was "the largest carry job in NBA playoff history." It goes like this:
 
 1. Give every playoff run since 1977 six numbers: usage, assists, rebounds, steals, blocks and efficiency.
 2. Standardize each season against its own era.
 3. Measure the Euclidean distance between runs.
 
-It made three claims:
+It makes three claims:
 
 1. LeBron's closest comparisons are his own other runs, and the nearest run by anyone else is Larry Bird's.
 2. Nobody has ever had a run like it ("practically immeasurable").
@@ -29,7 +29,7 @@ Claims 1 and 2 are about how *unique* the run was. Claim 3 is about *carrying*, 
 
 A run qualifies if the player logged at least **250 playoff minutes**. Sensitivity checks rerun everything at 150 and 400 minutes.
 
-## The six-number profile (replicating the video)
+## The six-number profile (replicating the original argument)
 
 The six stats are:
 - Usage rate (USG%)
@@ -39,19 +39,19 @@ The six stats are:
 - Block rate (BLK%)
 - True shooting (TS%)
 
-Each stat becomes a z-score within its own postseason, using that postseason's qualifying runs (population standard deviation). This puts the 1980s and today on the same scale, the way the video does.
+Each stat becomes a z-score within its own postseason, using that postseason's qualifying runs (population standard deviation). This puts the 1980s and today on the same scale, the way the original argument does.
 
 ## Test 1: Replication
 
 Measure the Euclidean distance on the six z-scores between LeBron's 2018 run and every other qualifying run. Report the 10 nearest runs and the nearest run by a different player.
 
-The video's Bird claim is confirmed if the nearest run by a different player belongs to Larry Bird.
+The Bird claim is confirmed if the nearest run by a different player belongs to Larry Bird.
 
 ## Test 2: Was it the most unique run ever?
 
 For every qualifying run, **isolation** is the distance to the nearest run by a different player. All runs are ranked by isolation in two ways:
 
-- **Euclidean distance:** the video's method.
+- **Euclidean distance:** the original argument's method.
 - **Mahalanobis distance:** accounts for stats that move together. For example, high-usage players tend to have high assist rates, and Euclidean distance counts that overlap twice. The covariance comes from all qualifying z-scored runs pooled together.
 
 The "nobody has ever done this" claim is supported if 2018 LeBron ranks #1 in isolation under the Euclidean version. The Mahalanobis rank is reported next to it.

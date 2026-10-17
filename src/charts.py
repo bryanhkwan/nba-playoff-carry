@@ -161,11 +161,15 @@ def main():
                   "Who's closest to 2018 LeBron?",
                   "The 10 nearest playoff runs across six era-adjusted stats\n(usage, assists, rebounds, steals, blocks, true shooting). Shorter = more similar.")
 
-    for name, label in (("euclid", "the video's method"), ("mahal", "correcting for stats that move together")):
+    isolation_versions = (
+        ("euclid", "Euclidean distance", "Longer = nobody else has played like that."),
+        ("mahal", "Mahalanobis distance", "This version adjusts for stats that move together. Longer = more one-of-a-kind."),
+    )
+    for name, label, note in isolation_versions:
         top = q.sort_values(f"iso_{name}", ascending=False).head(15)
         ranking_chart(top, f"iso_{name}", lambda v: f"{v:.2f}", RESULTS / f"fig_isolation_{name}.png",
                       "The most one-of-a-kind playoff runs",
-                      f"Distance from each run to the closest run by any other player ({label}).\nLonger = nobody else has played like that.")
+                      f"Distance from each run to the closest run by any other player ({label}).\n{note}")
 
     top = q.sort_values("ws_share", ascending=False).head(15)
     ranking_chart(top, "ws_share", lambda v: f"{v:.0%}", RESULTS / "fig_carry_ws_share.png",

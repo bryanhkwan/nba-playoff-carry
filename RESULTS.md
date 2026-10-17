@@ -1,10 +1,10 @@
 # Results
 
-Run on 2026-10-17 using the method in [METHOD.md](METHOD.md), which was committed before any data was pulled (commit `130f24f`). Every verdict below follows the rules written there.
+Run on 2026-10-17 using the method in [METHOD.md](METHOD.md), which was committed before any data was pulled (commit `f277b98`). Every verdict below follows the rules written there.
 
 ## Short version
 
-| The video's claim | Verdict | What the data says |
+| The claim | Verdict | What the data says |
 |---|---|---|
 | His closest comparison is himself | **Mostly holds** | His two nearest runs are his own (2010, 2009), and 5 of his 10 nearest are LeBron runs. |
 | The nearest player who isn't him is Larry Bird | **Not reproduced** | The nearest other player is Kevin Durant (2013). No Bird run makes the top 10 at any minute cutoff. |
@@ -15,14 +15,14 @@ On LeBron vs. Jordan, it's close and depends on the measure. Jordan's 1988 run e
 
 ## Data
 
-- 49 postseasons, 1978–2026.
+- 49 postseasons, 1978-2026.
 - 1977 was excluded: usage rate needs turnovers, which the NBA didn't track until the 1977-78 season.
-- 9,302 player-postseasons from 1978–2026, 2,464 of them with 250+ minutes.
+- 9,302 player-postseasons from 1978-2026, 2,464 of them with 250+ minutes.
 - Every team-season matched to its series results.
 
 ## Test 1: Replication
 
-These are the ten runs closest to 2018 LeBron, using the video's six stats with each one standardized within its own postseason:
+These are the ten runs closest to 2018 LeBron, using the original argument's six stats with each one standardized within its own postseason:
 
 | Rank | Run | Distance |
 |---|---|---|
@@ -39,13 +39,13 @@ These are the ten runs closest to 2018 LeBron, using the video's six stats with 
 
 The "closest comparison is himself" part holds. The Bird part doesn't. The nearest other player is Kevin Durant 2013 at the 250-minute cutoff, Luka Dončić 2020 at 150 minutes and James Harden 2020 at 400 minutes.
 
-The video doesn't publish its exact settings, such as the minimum minutes or the precise stat definitions. So this doesn't prove it miscounted its own setup. It shows the Bird result doesn't survive a reasonable rebuild at three different cutoffs.
+The original argument doesn't publish its exact settings, such as the minimum minutes or the precise stat definitions. So this doesn't prove it miscounted its own setup. It shows the Bird result doesn't survive a reasonable rebuild at three different cutoffs.
 
 ## Test 2: Was it the most unique run ever?
 
 "Isolation" is the distance from a run to the closest run by any other player.
 
-| Rank | Euclidean (video's method) | | Mahalanobis (corrects for stats that move together) | |
+| Rank | Euclidean (original method) | | Mahalanobis (corrects for stats that move together) | |
 |---|---|---|---|---|
 | 1 | James Donaldson 1986 | 2.090 | Nate McMillan 1993 | 2.289 |
 | 2 | Nate McMillan 1993 | 2.089 | James Donaldson 1986 | 2.108 |
